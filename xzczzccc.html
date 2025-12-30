@@ -225,7 +225,7 @@
         }, 1000);
     })();
 
-    const API_KEY = "075abb31e5459e159c7a7a9328345241";
+    const API_KEY = "";
     let curPage = 1, curPath = 'trending/movie/week', curId = null;
     let favorites = JSON.parse(localStorage.getItem('sids_favs') || '[]');
 
@@ -362,4 +362,5 @@
     window.onload = () => { loadTrending(); updateWatchedUI(); };
 </script>
 </body>
+
 </html>
